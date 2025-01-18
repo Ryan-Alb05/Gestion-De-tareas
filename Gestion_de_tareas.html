@@ -1,11 +1,77 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gestion de tareas</title>
-</head>
-<body>
-    
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gestion de student</title>
+        <link rel="stylesheet" href="Estilo.css">
+        
+    </head>
+    <body>
+        <div class="barra-lateral">
+            <h1>Gestion de Student</h1>
+            <ul>
+                <li><a href="#">Dashboard</a></li>
+                <li><a href="#">Tareas</a></li>
+                <li><a href="#">Calendario</a></li>
+                <li><a href="#">Miembros</a></li>
+            </ul>
+        </div>
+
+        <div class="contenido-principal">
+            <div class="barra-busqueda">
+                <input type="text" placeholder="Buscar tareas">
+                <button>Añadir Tarea</button>
+            </div>
+
+            <div class="tareas">
+                <div class="columna-tareas">
+                    <h2>En Progreso</h2>
+                    <div class="tarjeta-tarea">
+                        <b><h3>Creacion del mockup</h3></b>
+                        <p>Crear el diseño de alta eficiencia de la app.</p>
+                        <div class="etiquetas">
+                            <span class="etiqueta alta">Alta</span>
+                        
+                        </div>
+                        <div class="acciones">
+                            <button>Editar</button>
+                            <button>Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna-tareas">
+                    <h2>Tareas Completadas</h2>
+                    <div class="tarjeta-tarea">
+                        <b><h3>Diseño Ui-Ux</h3></b>
+                        <p>Crear la experiencia de usuario.</p>
+                        <div class="etiquetas">
+                            <span class="etiqueta media">Media</span>
+                        
+                        </div>
+                        <div class="acciones">
+                            <button>Editar</button>
+                            <button>Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="columna-tareas">
+                    <h2>Vencidas</h2>
+                    <div class="tarjeta-tarea">
+                        <b><h3>Diseño web</h3></b>
+                        <p>Crear una interfaz visual...</p>
+                        <div class="etiquetas">
+                            <span class="etiqueta baja">Baja</span>
+                            
+                        </div>
+                        <div class="acciones">
+                            <button>Editar</button>
+                            <button>Eliminar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
