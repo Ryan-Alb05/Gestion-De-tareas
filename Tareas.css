@@ -1,0 +1,173 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.barra-lateral {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 335px;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.barra-lateral h1 {
+    font-size: 1.5em;
+    margin: 0;
+    color: #4a4a4a;
+}
+
+.barra-lateral ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.barra-lateral ul li {
+    margin: 15px 0;
+}
+
+.barra-lateral ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1em;
+}
+
+.barra-lateral ul li a:hover {
+    color: #00aaff;
+}
+
+.contenido-principal {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.barra-busqueda {
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    right: 20px;
+    height: 40px;
+}
+
+.barra-busqueda input {
+    position: absolute;
+    top: -11;
+    left: -145;
+    width: 264px;
+    height: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 86px;
+}
+
+.barra-busqueda button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    padding: 10px 15px;
+    background-color: #6c63ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.barra-busqueda button:hover {
+    background-color: #009dff;
+}
+
+.tareas {
+    position: absolute;
+    top: 80px;
+    left: 270px;
+    right: 20px;
+    bottom: 20px;
+}
+
+.columna-tareas {
+    position: absolute;
+    width: 30%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.columna-tareas:nth-child(1) {
+    top: 0;
+    left: -104;
+}
+
+.columna-tareas:nth-child(2) {
+    top: 0;
+    left: 33%;
+}
+
+.columna-tareas:nth-child(3) {
+    top: 0;
+    left: 66%;
+}
+
+.columna-tareas h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.tarjeta-tarea {
+    position: relative;
+    background-color: #f7be7e;
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.tarjeta-tarea .etiquetas {
+    position: relative;
+    margin-top: 10px;
+}
+
+.etiqueta {
+    position: relative;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 5px;
+    color: white;
+}
+
+.etiqueta.alta {
+    background-color: #ff0000;
+}
+
+.etiqueta.media {
+    background-color: #fba300;
+}
+
+.etiqueta.baja {
+    background-color: #00ff62dc;
+}
+
+.tarjeta-tarea .acciones {
+    position: relative;
+    margin-top: 10px;
+}
+
+.tarjeta-tarea .acciones button {
+    padding: 5px 10px;
+    background-color: #00a0c0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
